@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="pictures/anicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Bitter&display=swap" rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bitter&family=Oswald&family=Roboto+Mono:ital,wght@1,300;1,400&display=swap"
+        rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bitter&family=Oswald&family=Roboto+Mono:ital,wght@1,300;1,400;1,700&display=swap"
+        rel="stylesheet" />
+</head>
+
+<body>
+    <main id="content">
+        <section>
+            <nav>
+                <h1 class="text3">Experience</h1>
+                <ol>
+                    <span class="text3" style="cursor: pointer;" onclick="navSideOpen()">Menu</span>
+                </ol>
+            </nav>
+            <div id="mymenu" class="menu">
+                <a href="javascript:void(0)" class="closebutton" onclick="navSideClosed()">&rarr;</a>
+                <label class="switch" title="Switch to ☀️/🌙 mode">
+                    <input id="cb" type="checkbox" onclick="toggleTheme()">
+                    <span class="slider round"></span>
+                </label>
+                <a href="index.html">Home</a>
+                <a href="myStudies.html">My studies</a>
+                <a href="projects.html">Projects</a>
+                <span class="myText">made by ya-tommy</span>
+                <span class="myText"
+                    onclick="location.href='https://www.linkedin.com/in/thomas-duperron-abi-nader-10638b208/'"
+                    style="margin-bottom: 20px; cursor: pointer;"
+                    title="https://www.linkedin.com/in/thomas-duperron-abi-nader-10638b208/">My LinkedIn</span>
+            </div>
+            <h2 class="text">Where did I work?</h2>
+        </section>
+        <div class="text4">
+            <span class="text4">
+                &#8611; 2020&emsp;Floor clerk, Pharmaprix, Montreal (Quebec)<br>
+                • Customer service (telephone, taking orders, help, etc.)<br>
+                • Organize the warehouse products as well as the sales area<br>
+                • Prioritize the various tasks requested<br>
+                • Knowledge of the items for sale<br>
+                <br>
+                &#8611; 2018&emsp;Office clerk (Administrative Assistant), EDSI, Paris (France)<br>
+                • Respond to customer requests (phone, emails, mails)<br>
+                • Collect and archive the various company documents<br>
+                • Transmission urgent to the employees<br>
+                • Synthetize the meetings’ content<br>
+            </span>
+        </div>
+    </main>
+    <script src="app.js"></script>
+</body>

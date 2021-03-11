@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="pictures/anicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Bitter&display=swap" rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bitter&family=Oswald&family=Roboto+Mono:ital,wght@1,300;1,400&display=swap"
+        rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bitter&family=Oswald&family=Roboto+Mono:ital,wght@1,300;1,400;1,700&display=swap"
+        rel="stylesheet" />
+</head>
+
+<body>
+    <main id="content">
+        <section class="landing">
+
+            <nav>
+                <h1 class="text3">My studies</h1>
+                <ol>
+                    <span class="text3" style="cursor: pointer;" onclick="navSideOpen()">Menu</span>
+                </ol>
+            </nav>
+            <div id="mymenu" class="menu">
+                <a href="javascript:void(0)" class="closebutton" onclick="navSideClosed()">&rarr;</a>
+                <label class="switch" title="Switch to ☀️/🌙 mode">
+                    <input id="cb" type="checkbox" onclick="toggleTheme()">
+                    <span class="slider round"></span>
+                </label>
+                <a href="index.html">Home</a>
+                <a href="experience.html">Experience</a>
+                <a href="projects.html">Projects</a>
+                <span class="myText">made by ya-tommy</span>
+                <span class="myText"
+                    onclick="location.href='https://www.linkedin.com/in/thomas-duperron-abi-nader-10638b208/'"
+                    style="margin-bottom: 20px; cursor: pointer;"
+                    title="https://www.linkedin.com/in/thomas-duperron-abi-nader-10638b208/">My LinkedIn</span>
+            </div>
+            <h2 class="text">What about my education?</h2>
+        </section>
+        <div class="text4">
+            <span class="text4">
+                &#8611; 2019 - 2021 &emsp;Polytechnique Montréal, Montreal (Quebec)<br>
+                • Bacherlor's in software engineering<br>
+                <br>
+                &#8611; 2017 - 2019 &emsp;Collège Stanislas, Montreal (Quebec)<br>
+                • DEC in natural sciences<br>
+                • Baccalauréat in science (DEC equivalent)<br>
+                <br>
+                &#8611; 2017&emsp;Aeronautical initiation certificate- Lycée Saint Aspais, Melun (France)
+                <br>
+            </span>
+        </div>
+    </main>
+    <script src="app.js"></script>
+</body>
