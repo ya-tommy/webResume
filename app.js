@@ -2,7 +2,8 @@ function toggleTheme() {
     var theme = document.getElementsByTagName('link')[0];
     if (theme.getAttribute('href') == 'style.css') { 
         theme.href = 'nightStyle.css';
-    } else { 
+    } 
+    else { 
         theme.href = 'style.css';
     }
 
@@ -25,20 +26,15 @@ else {
 
 function navSideOpen() {
     document.getElementById("mymenu").style.width = "100%";
-    document.getElementById("content").style.width = "0%";
-    document.getElementById("mymenu").style.height = "100%";
-    document.getElementById("content").style.height = "0%";
 }
 
 function navSideClosed() {
     document.getElementById("mymenu").style.width = "0";
-    document.getElementById("content").style.width = "100%";
 }
 
 document.addEventListener('keydown', function(e){
-	if(e.key === "Escape"){
+	if(e.key === "Escape") {
 		document.getElementById("mymenu").style.width = "0";
-        document.getElementById("content").style.width = "100%";
 	}
 });
 
