@@ -97,6 +97,7 @@ input:checked + .slider:before {
 	background-color: rgba(0, 0, 0, 0.80);
 	/* border-radius: 22px; */
 	backdrop-filter: blur(15px);
+	-webkit-backdrop-filter: blur(15px);
 	border-color: #e2eaf0;
 	overflow-x: hidden;
 	transition: 0.5s;
