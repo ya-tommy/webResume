@@ -24,6 +24,10 @@ else {
     theme.href = 'style.css';
 }
 
+if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
+    document.getElementById("mymenu").style.backgroundColor = "rgba(0, 0, 0)";
+}
+
 function navSideOpen() {
     document.getElementById("mymenu").style.width = "100%";
 }
