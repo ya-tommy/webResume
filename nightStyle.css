@@ -2,7 +2,6 @@ img.center {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 50%;
 }
 
 main {
@@ -13,7 +12,7 @@ nav {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	height: 7.5vh;
+	height: 5vh;
 }
 
 .nav-links li {
