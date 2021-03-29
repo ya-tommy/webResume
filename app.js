@@ -31,6 +31,8 @@ if(/Android|webOS|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
 function navSideOpen() {
     document.getElementById("mymenu").style.width = "100%";
     document.getElementById("content").style.overflow = "hidden";	
+    document.getElementById("content").style.height = "100%";
+    document.getElementById("content").style.margin = "0%";
 }
 
 function navSideClosed() {
