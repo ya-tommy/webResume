@@ -30,6 +30,7 @@ if(/Android|webOS|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
 
 function navSideOpen() {
     document.getElementById("mymenu").style.width = "100%";
+    document.getElementById("content").style.overflow = "hidden";	
 }
 
 function navSideClosed() {
