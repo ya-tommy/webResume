@@ -24,7 +24,7 @@ else {
     theme.href = 'style.css';
 }
 
-if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
+if(/Android|webOS|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
     document.getElementById("mymenu").style.backgroundColor = "rgba(0, 0, 0)";
 }
 
