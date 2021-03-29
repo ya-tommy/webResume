@@ -28,20 +28,30 @@ if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigat
     document.getElementById("mymenu").style.backgroundColor = "rgba(0, 0, 0)";
 }
 
+function disableScroll() {
+    window.scrollTo(0, 0);
+}
+
 function navSideOpen() {
     document.getElementById("mymenu").style.width = "100%";
+    window.addEventListener('scroll', disableScroll);
+
 }
 
 function navSideClosed() {
     document.getElementById("mymenu").style.width = "0";
+    window.removeEventListener('scroll', disableScroll);
 }
 
 document.addEventListener('keydown', function(e){
 	if (e.key === "Escape") {
 		document.getElementById("mymenu").style.width = "0";
+        window.removeEventListener('scroll', disableScroll);
 	}
     if (e.key === "m") {
         document.getElementById("mymenu").style.width = "100%";
+        window.addEventListener('scroll', disableScroll);
+
     }
 });
 
