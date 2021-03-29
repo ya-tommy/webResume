@@ -24,15 +24,12 @@ else {
     theme.href = 'style.css';
 }
 
-if(/Android|webOS|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
+if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
     document.getElementById("mymenu").style.backgroundColor = "rgba(0, 0, 0)";
 }
 
 function navSideOpen() {
     document.getElementById("mymenu").style.width = "100%";
-    document.getElementsByTagName("BODY").style.overflow = "hidden";	
-    document.getElementsByTagName("BODY").style.height = "100%";
-    document.getElementsByTagName("BODY").style.margin = "0%";
 }
 
 function navSideClosed() {
@@ -40,8 +37,11 @@ function navSideClosed() {
 }
 
 document.addEventListener('keydown', function(e){
-	if(e.key === "Escape") {
+	if (e.key === "Escape") {
 		document.getElementById("mymenu").style.width = "0";
 	}
+    if (e.key === "m") {
+        document.getElementById("mymenu").style.width = "100%";
+    }
 });
 
