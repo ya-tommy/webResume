@@ -179,7 +179,7 @@ input:checked + .slider:before {
 	right: 0; 
 	bottom: 10px;
 	font-family: "Oswald", sans-serif;
-	color: #e2eaf0
+	color: rgb(48, 55, 61);
 }
 
 myimg {

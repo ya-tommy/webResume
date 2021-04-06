@@ -180,7 +180,7 @@ input:checked + .slider:before {
 	right: 0; 
 	bottom: 10px;
 	font-family: "Oswald", sans-serif;
-	color: #e2eaf0
+	color: #e2eaf0;
 }
 
 body {
