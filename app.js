@@ -24,9 +24,9 @@ else {
     theme.href = 'style.css';
 }
 
-if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
-    document.getElementById("mymenu").style.backgroundColor = "rgba(0, 0, 0)";
-}
+// if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
+//     document.getElementById("mymenu").style.backgroundColor = "rgb(0, 0, 0)";
+// }
 
 function disableScroll() {
     window.scrollTo(0, 0);
