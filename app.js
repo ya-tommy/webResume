@@ -2,9 +2,15 @@ function toggleTheme() {
     var theme = document.getElementsByTagName('link')[0];
     if (theme.getAttribute('href') == 'style.css') { 
         theme.href = 'nightStyle.css';
+        if(/iPhone|iPad|iPod|BlackBerry|Firefox|MSIE/i.test(navigator.userAgent)){
+            document.getElementById("mymenu").style.backgroundColor = "rgb(48, 55, 61)";
+        }
     } 
     else { 
         theme.href = 'style.css';
+        if(/iPhone|iPad|iPod|BlackBerry|Firefox|MSIE/i.test(navigator.userAgent)){
+            document.getElementById("mymenu").style.backgroundColor = "rgb(226, 234, 240)";
+        }
     }
 
     // Saves the value of checkbox
@@ -19,14 +25,16 @@ document.getElementById("cb").checked = checked;
 var theme = document.getElementsByTagName('link')[0];
 if (document.getElementById('cb').checked ==  true) {
     theme.href = 'nightStyle.css';
+    if(/iPhone|iPad|iPod|BlackBerry|Firefox|MSIE/i.test(navigator.userAgent)){
+        document.getElementById("mymenu").style.backgroundColor = "rgb(48, 55, 61)";
+    }
 }
 else {
     theme.href = 'style.css';
+    if(/iPhone|iPad|iPod|BlackBerry|Firefox|MSIE/i.test(navigator.userAgent)){
+        document.getElementById("mymenu").style.backgroundColor = "rgb(226, 234, 240)";
+    }
 }
-
-// if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
-//     document.getElementById("mymenu").style.backgroundColor = "rgb(0, 0, 0)";
-// }
 
 function disableScroll() {
     window.scrollTo(0, 0);
