@@ -63,3 +63,13 @@ document.addEventListener('keydown', function(e){
     }
 });
 
+var name = "Thomas Duperron Abi Nader";
+var i = 0
+var speed = 75;
+function typedEffect() {
+    if (i < name.length) {
+        document.getElementById("typed").innerHTML += name.charAt(i);
+        i++
+        setTimeout(typedEffect, speed);
+    }
+}
