@@ -209,5 +209,6 @@ pic.center {
 	border-style: solid; 
 	border-width: 3px; 
 	border-color: #e2eaf0;
-	content: url("pictures/android-chrome-512x512.png");
+	/* content: url("pictures/android-chrome-512x512.png"); */
+	content: url("pictures/thomas_pfp.jpg");
 }

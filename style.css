@@ -213,5 +213,6 @@ pic.center {
 	border-style: solid; 
 	border-width: 3px; 
 	border-color: rgb(48, 55, 61);
-	content: url("pictures/light-android-chrome-512x512.png");
+	/* content: url("pictures/light-android-chrome-512x512.png"); */
+	content: url("pictures/thomas_pfp.jpg");
 }
