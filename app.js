@@ -22,19 +22,19 @@ function toggleTheme() {
 var checked = JSON.parse(localStorage.getItem("cb"));
 document.getElementById("cb").checked = checked;
 
-// var theme = document.getElementsByTagName('link')[0];
-// if (document.getElementById('cb').checked ==  true) {
-//     theme.href = 'nightStyle.css';
+var theme = document.getElementsByTagName('link')[0];
+if (document.getElementById('cb').checked ==  true) {
+    theme.href = 'nightStyle.css';
 //     if(/iPhone|iPad|iPod|BlackBerry|Firefox|MSIE/i.test(navigator.userAgent)){
 //         document.getElementById("mymenu").style.backgroundColor = "rgb(48, 55, 61)";
 //     }
-// }
-// else {
-//     theme.href = 'style.css';
+}
+else {
+    theme.href = 'style.css';
 //     if(/iPhone|iPad|iPod|BlackBerry|Firefox|MSIE/i.test(navigator.userAgent)){
 //         document.getElementById("mymenu").style.backgroundColor = "rgb(226, 234, 240)";
 //     }
-// }
+}
 
 function disableScroll() {
     window.scrollTo(0, 0);
