@@ -22,7 +22,7 @@ function toggleTheme() {
 var checked = JSON.parse(localStorage.getItem("cb"));
 document.getElementById("cb").checked = checked;
 
-var theme = document.getElementsByTagName('link')[0];
+// var theme = document.getElementsByTagName('link')[0];
 // if (document.getElementById('cb').checked ==  true) {
 //     theme.href = 'nightStyle.css';
 //     if(/iPhone|iPad|iPod|BlackBerry|Firefox|MSIE/i.test(navigator.userAgent)){

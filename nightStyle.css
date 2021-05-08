@@ -106,7 +106,7 @@ input:checked + .slider:before {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	border-color: rgb(48, 55, 61);
+	border-color: #e2eaf0;
 	overflow-x: hidden;
 	transition: 0.5s;
 	/* background-color: rgba(48, 55, 61, 0.75);
