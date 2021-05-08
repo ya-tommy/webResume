@@ -121,7 +121,7 @@ input:checked + .slider:before {
 	text-decoration: none;
 	font-size: 2rem;
 	font-family: "Oswald", sans-serif;
-	color: grey;
+	color: rgb(160, 160, 160);
 	display: block;
 	transition: 0.3s;
 }
