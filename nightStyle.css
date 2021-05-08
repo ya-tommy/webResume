@@ -185,6 +185,11 @@ input:checked + .slider:before {
 
 body {
 	background-color: rgb(48, 55, 61);
+	background-image: linear-gradient(to bottom left, rgb(48, 55, 61), #3d5c74);
+	background-image: -webkit-linear-gradient(to bottom left, rgb(48, 55, 61), #3d5c74);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
 	color: #e2eaf0;
 }
 

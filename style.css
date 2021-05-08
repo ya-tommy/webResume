@@ -188,6 +188,11 @@ myimg {
 
 body {
 	background-color: #e2eaf0;
+	background-image: linear-gradient(to bottom left, #e2eaf0, #81c3f5);
+	background-image: -webkit-linear-gradient(to bottom left, #e2eaf0, #81c3f5);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
 	color: rgb(48, 55, 61);
 }
 
