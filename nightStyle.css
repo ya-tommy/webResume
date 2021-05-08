@@ -189,14 +189,20 @@ body {
 	background-color: rgb(48, 55, 61);
 	background-image: linear-gradient(to bottom left, rgb(48, 55, 61), #3d5c74);
 	background-image: -webkit-linear-gradient(to bottom left, rgb(48, 55, 61), #3d5c74);
+	background-image: -moz-linear-gradient(to bottom left, rgb(48, 55, 61), #3d5c74);
+	background-image: -o-linear-gradient(to bottom left, rgb(48, 55, 61), #3d5c74);
 	background-position: center;
 	-webkit-background-position: center;
+	-moz-background-position: center;
+	-o-background-position: center;
 	background-size: cover;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
-	-o-background-size: cover;
+  	-o-background-size: cover;
 	background-repeat: no-repeat;
 	-webkit-background-repeat: no-repeat;
+	-moz-background-repeat: no-repeat;
+	-o-background-repeat: no-repeat;
 	color: #e2eaf0;
 }
 
