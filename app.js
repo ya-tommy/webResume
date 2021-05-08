@@ -2,15 +2,15 @@ function toggleTheme() {
     var theme = document.getElementsByTagName('link')[0];
     if (theme.getAttribute('href') == 'style.css') { 
         theme.href = 'nightStyle.css';
-        if(/iPhone|iPad|iPod|BlackBerry|MSIE/i.test(navigator.userAgent)){
-            document.getElementById("mymenu").style.backgroundColor = "rgb(48, 55, 61)";
-        }
+        // if(/iPhone|iPad|iPod|BlackBerry|MSIE/i.test(navigator.userAgent)){
+        //     document.getElementById("mymenu").style.backgroundColor = "rgb(48, 55, 61)";
+        // }
     } 
     else { 
         theme.href = 'style.css';
-        if(/iPhone|iPad|iPod|BlackBerry|MSIE/i.test(navigator.userAgent)){
-            document.getElementById("mymenu").style.backgroundColor = "rgb(226, 234, 240)";
-        }
+        // if(/iPhone|iPad|iPod|BlackBerry|MSIE/i.test(navigator.userAgent)){
+        //     document.getElementById("mymenu").style.backgroundColor = "rgb(226, 234, 240)";
+        // }
     }
 
     // Saves the value of checkbox
@@ -23,18 +23,18 @@ var checked = JSON.parse(localStorage.getItem("cb"));
 document.getElementById("cb").checked = checked;
 
 var theme = document.getElementsByTagName('link')[0];
-if (document.getElementById('cb').checked ==  true) {
-    theme.href = 'nightStyle.css';
-    if(/iPhone|iPad|iPod|BlackBerry|MSIE/i.test(navigator.userAgent)){
-        document.getElementById("mymenu").style.backgroundColor = "rgb(48, 55, 61)";
-    }
-}
-else {
-    theme.href = 'style.css';
-    if(/iPhone|iPad|iPod|BlackBerry|MSIE/i.test(navigator.userAgent)){
-        document.getElementById("mymenu").style.backgroundColor = "rgb(226, 234, 240)";
-    }
-}
+// if (document.getElementById('cb').checked ==  true) {
+//     theme.href = 'nightStyle.css';
+//     if(/iPhone|iPad|iPod|BlackBerry|MSIE/i.test(navigator.userAgent)){
+//         document.getElementById("mymenu").style.backgroundColor = "rgb(48, 55, 61)";
+//     }
+// }
+// else {
+//     theme.href = 'style.css';
+//     if(/iPhone|iPad|iPod|BlackBerry|MSIE/i.test(navigator.userAgent)){
+//         document.getElementById("mymenu").style.backgroundColor = "rgb(226, 234, 240)";
+//     }
+// }
 
 function disableScroll() {
     window.scrollTo(0, 0);
