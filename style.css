@@ -97,6 +97,8 @@ input:checked + .slider:before {
 	background-color: rgba(226, 234, 240, 0.75);
 	/* border-radius: 22px; */
 	-webkit-backdrop-filter: blur(15px);
+	-moz-backdrop-filter: blur(15px);
+	-o-backdrop-filter: blur(15px);
 	backdrop-filter: blur(15px);
 	border-color: rgb(48, 55, 61);
 	overflow-x: hidden;
@@ -194,6 +196,8 @@ body {
 	-webkit-background-position: center;
 	background-size: cover;
 	-webkit-background-size: cover;
+	-moz-background-size: cover;
+  	-o-background-size: cover;
 	background-repeat: no-repeat;
 	-webkit-background-repeat: no-repeat;
 	color: rgb(48, 55, 61);
