@@ -94,15 +94,26 @@ input:checked + .slider:before {
 	top: 0;
 	right: 0;
 	bottom: 0;
-	background-color: rgba(226, 234, 240, 0.75);
-	/* border-radius: 22px; */
-	-webkit-backdrop-filter: blur(15px);
-	-moz-backdrop-filter: blur(15px);
-	-o-backdrop-filter: blur(15px);
-	backdrop-filter: blur(15px);
+	background-color: #e2eaf0;
+	background-image: linear-gradient(to bottom left, #e2eaf0, #81c3f5);
+	background-image: -webkit-linear-gradient(to bottom left, #e2eaf0, #81c3f5);
+	background-image: -moz-linear-gradient(to bottom left, #e2eaf0, #81c3f5);
+	background-image: -o-linear-gradient(to bottom left, #e2eaf0, #81c3f5);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 	border-color: rgb(48, 55, 61);
 	overflow-x: hidden;
 	transition: 0.5s;
+	/* background-color: rgba(226, 234, 240, 0.75);
+	-webkit-backdrop-filter: blur(15px);
+	-moz-backdrop-filter: blur(15px);
+	-o-backdrop-filter: blur(15px);
+	backdrop-filter: blur(15px); */
 }
 
 .menu a {
