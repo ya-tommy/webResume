@@ -113,10 +113,10 @@ input:checked + .slider:before {
 	right: 0;
 	bottom: 0;
 	background-color: rgb(48, 55, 61);
-	background-image: linear-gradient(to bottom left, rgb(48, 55, 61), #3d5c74);
-	background-image: -webkit-linear-gradient(to bottom left, rgb(48, 55, 61), #3d5c74);
-	background-image: -moz-linear-gradient(to bottom left, rgb(48, 55, 61), #3d5c74);
-	background-image: -o-linear-gradient(to bottom left, rgb(48, 55, 61), #3d5c74);
+	background-image: linear-gradient(to bottom left, rgb(48, 55, 61), #18252f);
+	background-image: -webkit-linear-gradient(to bottom left, rgb(48, 55, 61), #18252f);
+	background-image: -moz-linear-gradient(to bottom left, rgb(48, 55, 61), #18252f);
+	background-image: -o-linear-gradient(to bottom left, rgb(48, 55, 61), #18252f);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: center;
@@ -215,10 +215,10 @@ input:checked + .slider:before {
 
 body {
 	background-color: rgb(48, 55, 61);
-	background-image: linear-gradient(to bottom left, rgb(48, 55, 61), #3d5c74);
-	background-image: -webkit-linear-gradient(to bottom left, rgb(48, 55, 61), #3d5c74);
-	background-image: -moz-linear-gradient(to bottom left, rgb(48, 55, 61), #3d5c74);
-	background-image: -o-linear-gradient(to bottom left, rgb(48, 55, 61), #3d5c74);
+	background-image: linear-gradient(to bottom left, rgb(48, 55, 61), #18252f);
+	background-image: -webkit-linear-gradient(to bottom left, rgb(48, 55, 61), #18252f);
+	background-image: -moz-linear-gradient(to bottom left, rgb(48, 55, 61), #18252f);
+	background-image: -o-linear-gradient(to bottom left, rgb(48, 55, 61), #18252f);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: center;
